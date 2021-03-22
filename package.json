@@ -1,0 +1,32 @@
+{
+  "name": "spa-vanilla",
+  "version": "0.0.1",
+  "description": "SPA with JavaScript Vanilla",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goids/spa.git"
+  },
+  "keywords": [
+    "spa",
+    "javascript",
+    "single",
+    "page",
+    "application"
+  ],
+  "author": "Diego Grueso <goidesdesign@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
