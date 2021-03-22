@@ -2,7 +2,7 @@ language: node_js
 cache:  
   directories:
     - ~/.npm
-nose_js:
+node_js:
   - '12'
 git:
   depth: 3
